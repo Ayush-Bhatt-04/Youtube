@@ -1,0 +1,26 @@
+
+.container_SearchList2 {
+  background-color: white;
+  /* flex-grow: 1; */
+  width: 90.75%;
+  top: 2.7rem;
+  height: fit-content;
+  z-index: 91;
+  position: absolute;
+}
+
+.titleItem {
+  margin: 0;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.titleItem:hover {
+  background-color: rgba(166, 202, 234, 0.516);
+}
+
+@media (max-width:1100px){
+  .container_SearchList2 {
+    width: 20rem;
+  }
+
+}
